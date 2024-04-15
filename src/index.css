@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* operator and operator1 styling */
+.operator {
+  font-size: 1.5rem;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.operators {
+  font-weight: bold;
+  margin-right: 0.1rem;
 }
+
+.nodrag {
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.result {
+  font-size: 1rem; 
+  font-weight: bold;
+  color: #333;
+  margin-top: 1rem; 
+}
+
+/* app.jsx styling */
+.button-1 {
+  padding: 0.5rem 1rem; 
+  border-radius: 1rem; 
+  background-color: #ffffff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  border: none;
+  cursor: pointer;
+}
+
